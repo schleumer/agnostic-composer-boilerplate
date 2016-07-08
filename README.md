@@ -57,7 +57,6 @@ seu trabalho, tudo e todos para funcionar com **UTF-8**, isso evita muita dor de
 ```
 git clone https://github.com/schleumer/agnostic-composer-boilerplate
 
-
 composer install
 
 # se você estiver no Windows:
