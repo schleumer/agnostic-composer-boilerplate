@@ -1,0 +1,28 @@
+{
+  "name": "wesley/agnostic-composer-boilerplate",
+  "description": "Composer application without any framework, only structure.",
+  "license": "WTFPL",
+  "authors": [
+    {
+      "name": "Wesley Schleumer",
+      "email": "wesley.schleumer@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "./lib/helpers.php"
+    ],
+    "psr-4": {
+      "App\\": "./lib/App"
+    },
+    "classmap": [
+      "./lib/"
+    ]
+  },
+  "require": {
+    "symfony/http-foundation": "^3.1",
+    "filp/whoops": "^2.1",
+    "symfony/var-dumper": "^3.1",
+    "league/plates": "^3.1"
+  }
+}
