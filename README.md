@@ -7,7 +7,7 @@ Estrutura:
 - `lib/setup.php`: esse é o arquivo onde você vai configurar todas as bibliotecas usadas pela sua aplicação,
 faça um `require` nesse arquivo caso precise utilizar suas bibliotecas.
 
-O projeto já vem com o metodo `json()` para enviar JSON como resposta, `send()` para enviar um conteúdo, `session()` para acessar acessar os dados da sessão, `request()` para acessar os dados da requisição e `response()` para acessar o objeto de resposta. Temos também o [Whoops](https://github.com/filp/whoops) instalado e configurado pra mostrar belos erros na sua tela(se você não usar echo/print/var_dump, se você usar vai quebrar). Temos também o `dd()` para você mostrar belos dumps na sua tela!
+O projeto já vem com o metodo `json()` para enviar JSON como resposta, `send()` para enviar um conteúdo, `session()` para acessar acessar os dados da sessão, `request()` para acessar os dados da requisição e `response()` para acessar o objeto de resposta. Temos também o [Whoops](https://github.com/filp/whoops) instalado e configurado pra mostrar belos erros na sua tela(se você não usar echo/print/var_dump, [se você usar vai quebrar](https://github.com/schleumer/agnostic-composer-boilerplate/tree/master/www#lembrando)). Temos também o `dd()` para você mostrar belos dumps na sua tela!
 
 Dicas:
 
