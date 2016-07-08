@@ -1,6 +1,6 @@
 Aqui é onde devem ficar seus arquivos que receberão as requisições,
 como não há sistema de rotas nesse modelo, os arquivos são as rotas,
-use a função `request()` para trazer informações da requisição, `session()` para sessão e
+use a função `request()` para trazer informações da requisição, `response()` para acesso à resposta, `session()` para sessão e
 `render()` para enviar o template.
 
 ####LEMBRANDO:
