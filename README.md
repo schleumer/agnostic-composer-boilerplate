@@ -65,3 +65,5 @@ run.bat
 # se você estiver em qualquer outro:
 ./run.sh
 ```
+
+- Se nenhum erro apareceu no terminal, tá tudo ok, acesse [http://localhost:4000/](http://localhost:4000/)
