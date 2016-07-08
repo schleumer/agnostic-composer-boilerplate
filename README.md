@@ -9,7 +9,7 @@ faça um `require` nesse arquivo caso precise utilizar suas bibliotecas.
 
 Dicas:
 
-- Leia [PHP do jeito certo](http://br.phptherightway.com/)
+- Leia [PHP do jeito certo](http://br.phptherightway.com/) principalmente [essa parte](http://br.phptherightway.com/#banco_de_dados)
 
 - **NÃO COLOQUE LOGICA DENTRO DOS TEMPLATES**
 
