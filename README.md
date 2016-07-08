@@ -7,6 +7,8 @@ Estrutura:
 - `lib/setup.php`: esse é o arquivo onde você vai configurar todas as bibliotecas usadas pela sua aplicação,
 faça um `require` nesse arquivo caso precise utilizar suas bibliotecas.
 
+O projeto já vem com o metodo `json()` para enviar JSON como resposta, `send()` para enviar um conteúdo, `session()` para acessar acessar os dados da sessão, `request()` para acessar os dados da requisição e `response()` para acessar o objeto de resposta. Temos também o [Whoops](https://github.com/filp/whoops) instalado e configurado pra mostrar belos erros na sua tela(se você não usar echo/print/var_dump, se você usar vai quebrar).
+
 Dicas:
 
 - Leia [PHP do jeito certo](http://br.phptherightway.com/) principalmente [essa parte](http://br.phptherightway.com/#banco_de_dados)
@@ -28,7 +30,7 @@ o que deixaria sua aplicacação extremamente vulnerável,
 crie uma abstração dessas informações(classes de tratamento, classes de aquisição, helpers, etc.).
 O projeto já está configurado com o [HttpFoundation](https://symfony.com/doc/current/components/http_foundation/index.html) do Symfony, e possui a função `e()` para imprimir dados no HTML.
 Se você tiver tempo, dê uma olhada também na [abstração de respostas do HttpFoundation](https://symfony.com/doc/current/components/http_foundation/introduction.html#request),
-é bom caso você queira fazer alguma API em JSON(o projeto já vem com o metodo `json()` para enviar JSON como resposta, `send()` para enviar um conteúdo, e `response()` para acessar o objeto de resposta)
+é bom caso você queira fazer alguma API em JSON.
 
 - **NÃO SUBESTIME SUA APLICAÇÃO**, não use o pretexto
 **"ninguém nunca vai fazer isso na minha aplicação, não preciso melhorar a segurança do meu código"**,
