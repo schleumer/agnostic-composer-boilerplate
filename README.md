@@ -26,7 +26,7 @@ tratados nem validados nem estáveis, isso pode levar a vários problemas, como 
 e [SQL Injection](https://pt.wikipedia.org/wiki/Inje%C3%A7%C3%A3o_de_SQL),
 o que deixaria sua aplicacação extremamente vulnerável,
 crie uma abstração dessas informações(classes de tratamento, classes de aquisição, helpers, etc.).
-O projeto já está configurado com o [HttpFoundation](https://symfony.com/doc/current/components/http_foundation/index.html)do Symfony, e possui a função `e()` para imprimir dados no HTML.
+O projeto já está configurado com o [HttpFoundation](https://symfony.com/doc/current/components/http_foundation/index.html) do Symfony, e possui a função `e()` para imprimir dados no HTML.
 Se você tiver tempo, dê uma olhada também na [abstração de respostas do HttpFoundation](https://symfony.com/doc/current/components/http_foundation/introduction.html#request),
 é bom caso você queira fazer alguma API em JSON(o projeto já vem com o metodo `json()` para enviar JSON como resposta, `send()` para enviar um conteúdo, e `response()` para acessar o objeto de resposta)
 
